@@ -38,9 +38,9 @@ docker network disconnect network_name container_name
  To Do: 
  1. Create 1 centos container in default bridge network with name bridge01
  2. Create another centos container in default bridge network with name bridge02
- 3. Use docker inspect command to find the IP of 1st container
+ 3. Use docker inspect command to find the IP of 1st container 
  4. Use Docker exec command to open bash terminal of container bridge02
- 5. ping the IP of container bridge01 -> To check inter container networking
+ 5. ping the IP of container bridge01 -> To check inter container networking -> ping 172.17.0.2
  6. ping google.com -> To check internet access
  7. ping hostname of container 1 -> ping bridge01 -> To check if hostname resolution works in bridge network or not
 
